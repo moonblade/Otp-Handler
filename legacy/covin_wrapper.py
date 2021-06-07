@@ -88,7 +88,6 @@ def checkAvailability():
                     time.sleep(50)
                     return;
 
-request_header = {"Authorization": f"Bearer {otp}"}
 while(1):
         checkAvailability()
         time.sleep(5)
