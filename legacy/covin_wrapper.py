@@ -7,6 +7,7 @@ import requests
 
 WARNING_BEEP_DURATION = (1000, 1500)
 PINS = ["111111111"]
+mobile = "111111111"
 
 
 try:
@@ -76,7 +77,7 @@ def checkAvailability():
                                     beep(WARNING_BEEP_DURATION[0],WARNING_BEEP_DURATION[1])
                                     if(session["vaccine"] != ''):
                                             print("\t Vaccine: ", session["vaccine"])
-                                    os.system("python3 covin.py --mobile=111111111 --auto")
+                                    os.system("python3 covin.py --mobile="+mobile+" --auto")
                                     print("\n\n")
                     else:
                             print("No centers")
