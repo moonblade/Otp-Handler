@@ -1,0 +1,21 @@
+{
+  "beneficiary_dtls": [
+    {
+      "bref_id": "id",
+      "name": "name",
+      "vaccine": "",
+      "age": 1,
+      "status": "Not Vaccinated"
+    }
+  ],
+  "location_dtls": [
+    { "pincode": "111111", "alert_freq": 440 }
+  ],
+  "search_option": 1,
+  "minimum_slots": 2,
+  "refresh_freq": 5,
+  "auto_book": "yes",
+  "start_date": 1,
+  "vaccine_type": "COVISHIELD",
+  "fee_type": ["Free", "Paid"]
+}
